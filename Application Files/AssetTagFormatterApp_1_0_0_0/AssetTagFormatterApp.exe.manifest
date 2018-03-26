@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AssetTagFormatterApp.exe" version="1.0.0.0" publicKeyToken="a612a7dfb6f9599b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AssetTagFormatterApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AssetTagFormatterApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AssetTagFormatterApp.exe" size="10688">
+      <assemblyIdentity name="AssetTagFormatterApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yBjyM5w/HaxAeOAFfEYESC/k/P+/cY5YUn6GYv1vmg4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AssetTagFormatterApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DRAGGAPRIME\Stu" issuerKeyHash="a3249bfac04d85907f2125d015f0aab9d4bb8dee" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YB5eRx6jL14ehgJcQFEeT0H/7O0e4Vlux0/L1xn0cAo=</DigestValue></Reference></SignedInfo><SignatureValue>pyhOcort7YGC4ic/sS8v8lp+eBgd4KHyq0A43EX1jT1KNqcjaPIXhVoV1ZrENmFfUwyd4oIR55GFer5XzqKwuxksbOtV9PH7Ev3wJxjn5w6DecEzu26XgzSN7a1CZ9Rqj1cv2BL83bPJFdibx96UBjjxEV3xEZm6R+F47S901Gg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2E/I+VW/298p3JTZC/jnha9GRhliN6xpVufBY1vwJeC+WATmmU3zl/FvW9Qwqz/uErOvJBD3UjuKCmcvNTWZX6L+LXwmmQXn636dm5r+gZdRYaG+oob9Ogh8KAx/4+rokAEi0KQHl9IkSNuaI/E/y38ppm9EGvTcyc18Y8O4n08=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0a70f419d7cb4fc76e59e11eedecff414f1e51405c02861e5e2fa31e475e1e60" Description="" Url=""><as:assemblyIdentity name="AssetTagFormatterApp.exe" version="1.0.0.0" publicKeyToken="a612a7dfb6f9599b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DRAGGAPRIME\Stu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2HFXJBc+PHXCzBQt1ikD0y9iEaFcVAhM0ZMcqZ87u9k=</DigestValue></Reference></SignedInfo><SignatureValue>A97BlVjGwzgaGdT0RiqQSLtSP8eAeR0xI8Nt5++5c625FAw01fFZaTIv0M0ZmmHPCiYoZyRtnXb446O2pDZFQl4PYAB//0h99gNunpskt0HhBBwQOEhL7pSgCM2GLUeA9uzHGca+9GYjjIvaOrNiprZqMyqxzCONC9M3MS4j8rc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2E/I+VW/298p3JTZC/jnha9GRhliN6xpVufBY1vwJeC+WATmmU3zl/FvW9Qwqz/uErOvJBD3UjuKCmcvNTWZX6L+LXwmmQXn636dm5r+gZdRYaG+oob9Ogh8KAx/4+rokAEi0KQHl9IkSNuaI/E/y38ppm9EGvTcyc18Y8O4n08=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQea57PrlO95VBE7S9qQpSejANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ARABSAEEARwBHAEEAUABSAEkATQBFAFwAUwB0AHUwHhcNMTcwMzI2MTcyMDM3WhcNMTgwMzI2MjMyMDM3WjApMScwJQYDVQQDHh4ARABSAEEARwBHAEEAUABSAEkATQBFAFwAUwB0AHUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANhPyPlVv9vfKdyU2Qv454WvRkYZYjesaVbnwWNb8CXgvlgE5plN85fxb1vUMKs/7hKzryQQ91I7igpnLzU1mV+i/i18JpkF5+t+nZua/oGXUWGhvqKG/ToIfCgMf+Pq6JABItCkB5fSJEjbmiPxP8t/KaZvRBr03MnNfGPDuJ9PAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAyTekS397CFOeh/6wZrYnk5mgjAa1wTagv/N7duhTSDOwckVGFlAd9BpV2nf76TS6akbrNn8DrmMI6/T5MLfryU2qBNjHej+bpZXHHUeFe3DcDtuH024ze1kkqn64kiLHTr3PKMAowB6GGM+UD2u1B4zb8+gBJU3XXRJyvzKp2/c=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
